@@ -10,11 +10,11 @@
         },
         "parameter": {
             "description": "The following is just an example,Please modify it yourself",
-            "value": "gd:up --transfers 5 --vfs-cache-mode writes  --user (Login_user) --pass (Login_password)",
+            "value": "gd:up --buffer-size 64M --umask 0000 --default-permissions --allow-non-empty --allow-other --dir-cache-time 12h --vfs-cache-mode writes >/dev/null 2>&1 &",
             "required": true
         },
         "alist": {
-            "description": "$HOME/alist/config/config.json,
+            "description": "$HOME/alist/config/config.json",
             "value": "",
             "required": true
         }      
