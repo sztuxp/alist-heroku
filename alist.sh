@@ -10,7 +10,7 @@ $alist
 EOF
 
 #复制网盘的备份配置到运行环境
-#exec $(command -v rclone) ${parameter}
+$(command -v rclone) ${parameter}
 
 cd /alist
 ./alist -conf ./config/config.json
