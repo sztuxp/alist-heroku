@@ -1,4 +1,4 @@
-# alist-heroku
+# heroku alist
 ## 概述
 用于在 Heroku 上部署 alist。
 
