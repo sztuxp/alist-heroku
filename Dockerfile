@@ -1,4 +1,4 @@
-FROM FROM sbwml/alist:latest
+FROM sbwml/alist:latest
 MAINTAINER sz
 
 ADD alist.sh /alist.sh
