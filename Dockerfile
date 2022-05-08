@@ -7,7 +7,7 @@ ADD alist.sh /alist.sh
 RUN apt update && apt install -y  curl unzip \
 &&  chmod +x /alist.sh  \
 &&  curl https://rclone.org/install.sh | bash \
-&& curl -fsSL "https://github.com/Xhofe/alist/releases/download/v2.5.0/alist-linux-amd64.tar.gz" 
+&& curl -fsSL "https://github.com/Xhofe/alist/releases/download/v2.5.0/alist-linux-amd64.tar.gz" \
 && tar -zxvf alist-amd64.tar.gz \
 && chmod +x alist-amd64 \
 && mkdir -p alist \
