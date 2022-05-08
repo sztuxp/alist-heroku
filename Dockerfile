@@ -1,8 +1,11 @@
 FROM sbwml/alist:latest
 MAINTAINER 
 
-RUN chmod -R 777 /alist/config
 ADD alist.sh /alist.sh
-RUN chmod +x /alist.sh
+
+RUN apt update && apt install -y  curl unzip \
+&&  chmod +x /alist.sh  \
+&&  curl https://rclone.org/install.sh | bash \
+chmod -R 777 /alist/config
 
 CMD /alist.sh
