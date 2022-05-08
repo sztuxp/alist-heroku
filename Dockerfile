@@ -1,5 +1,5 @@
 FROM sbwml/alist:latest
-MAINTAINER 
+MAINTAINER sz
 
 ADD alist.sh /alist.sh
 
