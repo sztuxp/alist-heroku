@@ -1,4 +1,4 @@
-FROM debian:10
+FROM debian:9
 MAINTAINER sz
 
 ADD alist.sh /alist.sh
