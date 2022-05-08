@@ -1,0 +1,23 @@
+{
+    "name": "alist heroku",
+    "description": "Deploy alist on Heroku. alist running data is placed on the reclone mount disk  ",
+    "keywords": ["alist"],
+    "env": {
+        "rclone": {
+            "description": "$HOME/.config/rclone/rclone.conf",
+            "value": "",
+            "required": true
+        },
+        "parameter": {
+            "description": "The following is just an example,Please modify it yourself",
+            "value": "gd:up --transfers 5 --vfs-cache-mode writes  --user (Login_user) --pass (Login_password)",
+            "required": true
+        },
+        "alist": {
+            "description": "$HOME/alist/config/config.json,
+            "value": "",
+            "required": true
+        }      
+    },
+    "stack": "container"
+}
