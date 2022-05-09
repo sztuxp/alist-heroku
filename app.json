@@ -10,7 +10,7 @@
         },
         "parameter": {
             "description": "The following is just an example,Please modify it yourself",
-            "value": "copy --progress gd:/alist/data.db  /alist",
+            "value": "copy gd:/alist/data.db  /alist --progress --size-only",
             "required": true
         },
         "alist": {
