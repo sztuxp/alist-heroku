@@ -1,6 +1,6 @@
 # 初始化rclone配置
-mkdir -p /.config/rclone
-cat >/.config/rclone/rclone.conf <<EOF 
+mkdir -p /alist/.config/rclone
+cat >/alist/.config/rclone/rclone.conf <<EOF 
 $rclone
 EOF
 
