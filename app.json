@@ -12,7 +12,12 @@
             "description": "The following is just an example,Please modify it yourself",
             "value": "copy gd:/alist/data.db  /alist --progress --size-only --config /rclone/rclone.conf",
             "required": true
-        }    
+        },
+        "alist": {
+            "description": "alist config info",
+            "value": "",
+            "required": true
+        }          
     },
     "stack": "container"
 }
